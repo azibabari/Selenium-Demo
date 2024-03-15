@@ -1,0 +1,308 @@
+[
+  {
+    "description": "  As a user\n  I want to verify successful submission of text in the single input field",
+    "elements": [
+      {
+        "description": "",
+        "id": "simple-form-demo;verify-successful-submission-of-text",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify successful submission of text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the Simple Form Demo page",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13699451801
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user inputs \"Azibabari\" in the textfield",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247388006
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks the \"Show Message\" button",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54770201
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Azibabari\" should display below the input field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:27"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 360845,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "simple-form-demo;verify-successful-submission-of-numbers-and-decimals-in-multiple-input-fields",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verify successful submission of numbers and decimals in multiple input fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the Simple Form Demo page (Multiple Fields section)",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178251
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"5\" in the first field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:36"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 82301,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters \"5\" in the second field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks the \"Get Total\" button",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the total displayed should be \"10\"",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "simple-form-demo;verify-successful-submission-of-numbers-and-decimals-in-multiple-input-fields",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Verify successful submission of numbers and decimals in multiple input fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the Simple Form Demo page (Multiple Fields section)",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190891
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"5.2\" in the first field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:36"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 416829,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters \"5.2\" in the second field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks the \"Get Total\" button",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the total displayed should be \"10.4\"",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "simple-form-demo;verify-successful-submission-of-numbers-and-decimals-in-multiple-input-fields",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify successful submission of numbers and decimals in multiple input fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the Simple Form Demo page (Multiple Fields section)",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2252502
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"5\" in the first field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:36"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 237827,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters \"5.2\" in the second field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks the \"Get Total\" button",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the total displayed should be \"10.2\"",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "simple-form-demo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Simple Form Demo",
+    "tags": [],
+    "uri": "features/simple_form_demo.feature"
+  }
+]

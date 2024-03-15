@@ -1,0 +1,34 @@
+{
+  "name": "selenium_demo",
+  "version": "1.0.0",
+  "description": "Testing Selenium Demo",
+  "main": "test.js",
+  "scripts": {
+    "test": "node run_tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azibabari/Selenium-Demo.git"
+  },
+  "keywords": [
+    "Selenium",
+    "WebDriver",
+    "testing",
+    "automation",
+    "Selenium",
+    "Demo"
+  ],
+  "author": "Kana Azibabari Lagalo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azibabari/Selenium-Demo/issues"
+  },
+  "homepage": "https://github.com/azibabari/Selenium-Demo#readme",
+  "dependencies": {
+    "chai": "^5.1.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "selenium-webdriver": "^4.18.1"
+  }
+}
