@@ -7,7 +7,6 @@ const SimpleFormPage = require('../../simple_form_page.js');
 let driver;
 let openPage;
 
-
 Given('the user is on the Simple Form Demo page', { timeout: 120000 }, async () =>{
   driver = new Builder().forBrowser('chrome').build();
   openPage = new SimpleFormPage(driver);
