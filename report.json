@@ -1,0 +1,821 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "bootstrap-alerts;verify-alert-messages",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify Alert Messages",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the Bootstrap Alerts page",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_alert_steps_definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7745855076
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on all alert buttons",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_alert_steps_definitions.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372992115
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "all alerts should appear with the correct messages",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_alert_steps_definitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87061216
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I close alerts using the cancel button",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_alert_steps_definitions.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220989537
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "bootstrap-alerts",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Bootstrap Alerts",
+    "tags": [],
+    "uri": "features/bootstrap_alert.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "bootstrap-modal-functionality;single-modal",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Single Modal",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the Bootstrap modal page",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5746905598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks on \"Launch modal\"",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14357287
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a modal should appear with the text \"This is the place where the content for the modal dialog displays\"",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90656535
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on \"close\" button",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23245763
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the modal should disappear and the page should reload",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 463757
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "bootstrap-modal-functionality;nested-modal",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Nested Modal",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "user navigates to the Bootstrap modal page(Nested)",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233768
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user clicks on \"Launch modal\" button(Nested)",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16820551
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "a modal should appear(Nested)",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 627293
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "user clicks on the nested \"Launch modal\" button inside the modal(Nested)",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 419513371
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "a nested modal should appear with different content \"This is the place where the content for the modal dialog displays\"(Nested)",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15189027
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user clicks on \"Save changes\" button inside the nested modal(Nested)",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13271611
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "all modals should disappear and the page should reload(Nested)",
+            "match": {
+              "location": "features/steps_definitions/bootstrap_modal_steps_definitions.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508046
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "bootstrap-modal-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Bootstrap Modal Functionality",
+    "tags": [],
+    "uri": "features/bootstrap_modal.feature"
+  },
+  {
+    "description": "  As a user,\n  I want to verify that I can select each day of the week in the single select section,\n  So that the value should be shown below the select field.",
+    "elements": [
+      {
+        "description": "",
+        "id": "select-dropdown-lists-functionality;verify-selection-of-each-day-of-the-week",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify selection of each day of the week",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the Select Dropdown Lists page",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6761454402
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user accesses the Select Dropdown lists",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 968812769
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "navigates to the single select section",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50077907
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "selects all the days of the week one by one",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 489062158
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "for any day user selects, value should be shown below the select field",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 455960868
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "select-dropdown-lists-functionality;verify-functionality-of-multi-select-(multiple-select)",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify functionality of multi-select (Multiple Select)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "the user is on the Select Dropdown Lists page",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6725972042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user navigates to the multiple select section",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 816702848
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user selects any city",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79794970
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user clicks on the \"First selected\" button",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377361
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the first selected option should be displayed under the field(one option)",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109944202
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the user clicks on \"Get all selected\"(one option)",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50125135
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "all selected cities should be displayed(one option)",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29009244
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the user selects multiple cities",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183257
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user clicks on the \"First selected\" button",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the first selected option should be displayed under the field",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181034
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "the user clicks on \"Get all selected\"",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "all selected cities should be displayed",
+            "match": {
+              "location": "features/steps_definitions/select_dropdown_list_step_definitions.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138340
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "select-dropdown-lists-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Select Dropdown Lists Functionality",
+    "tags": [],
+    "uri": "features/select_dropdown_list.feature"
+  },
+  {
+    "description": "  As a user\n  I want to verify successful submission of text in the single input field",
+    "elements": [
+      {
+        "description": "",
+        "id": "simple-form-demo;verify-successful-submission-of-text",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify successful submission of text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the Simple Form Demo page",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5619276080
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user inputs \"Azibabari\" in the textfield",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170165353
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks the \"Show Message\" button",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57297226
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Azibabari\" should display below the input field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46507361
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "simple-form-demo;verify-successful-submission-of-numbers-and-decimals-in-multiple-input-fields",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verify successful submission of numbers and decimals in multiple input fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the Simple Form Demo page (Multiple Fields section)",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151004
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"5\" in the first field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132113098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters \"5\" in the second field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86231968
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks the \"Get Total\" button",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4260234
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the total displayed should be \"10\"",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37970049
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "simple-form-demo;verify-successful-submission-of-numbers-and-decimals-in-multiple-input-fields",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Verify successful submission of numbers and decimals in multiple input fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the Simple Form Demo page (Multiple Fields section)",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"5.2\" in the first field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134816466
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters \"5.2\" in the second field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124598672
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks the \"Get Total\" button",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4974785
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the total displayed should be \"10.4\"",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18305158
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "simple-form-demo;verify-successful-submission-of-numbers-and-decimals-in-multiple-input-fields",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify successful submission of numbers and decimals in multiple input fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the Simple Form Demo page (Multiple Fields section)",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93963
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"5\" in the first field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134495798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters \"5.2\" in the second field",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131469337
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks the \"Get Total\" button",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5040347
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the total displayed should be \"10.2\"",
+            "match": {
+              "location": "features/steps_definitions/simple_form_demo_steps_definitions.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21230801
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "simple-form-demo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Simple Form Demo",
+    "tags": [],
+    "uri": "features/simple_form_demo.feature"
+  }
+]
