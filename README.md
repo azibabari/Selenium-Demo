@@ -14,7 +14,9 @@
 
 
 
-I hope this  finds you well.  I am really delighted to have moved to the next stage. I have been really this week. I have literally be vomiting and stooling all week, but nevertheless, I was able to do the assessment. I couldn't finish the second task because of my health and I have been having terrible network for the past few days.However, if the deadline can be extended, I would really appreciate it so I can finish the task.
 
-Please find here a screen recording of the step definitions that have been completed, the others have not been completed. 
-https://drive.google.com/file/d/1KZzYokO3I7vN2mmtXqlMAbdDxAeAZ2F3/view?usp=sharinghttps://drive.google.com/file/d/1KZzYokO3I7vN2mmtXqlMAbdDxAeAZ2F3/view?usp=sharing
+I hope this  finds you well.  I am really delighted to have moved to the next stage. Thank you so much for the consideratio and patience.
+
+Please find here a screen recording of the step definitions that have been completed. All tests are running.
+https://drive.google.com/file/d/1XVaZLJLxYtLvl4Lj9VWX4NJ_ose7-GrI/view?usp=sharing
+
