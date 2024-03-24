@@ -15,8 +15,9 @@
 
 
 
-I hope this  finds you well.  I am really delighted to have moved to the next stage. Thank you so much for the consideratio and patience.
 
 Please find here a screen recording of the step definitions that have been completed. All tests are running.
 https://drive.google.com/file/d/1XVaZLJLxYtLvl4Lj9VWX4NJ_ose7-GrI/view?usp=sharing
 
+And also a link to the test cases prepared for the specific pages that were worked on.
+https://docs.google.com/spreadsheets/d/1SEMj8_Ab7roWNS7YzEo3thktAoG1cIYi09ySw5EP3ro/edit?usp=sharing
