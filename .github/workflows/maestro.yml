@@ -1,0 +1,32 @@
+name: Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: macOS
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v1
+      with:
+        channel: 'stable'
+
+    - name: Build app
+      run: flutter build ios 
+
+    - name: Install Maestro
+      run: curl -Ls "https://get.maestro.mobile.dev" | bash
+
+    - name: Install Facebook IDB tool
+      if: runner.os == 'macOS'
+      run: |
+        brew tap facebook/fb
+        brew install facebook/fb/idb-companion
+
+    - name: Run tests
+      run: maestro test filename.yml
+      env:
+        FLUTTER_VERSION: stable # Use a specific version of Flutter, if needed
