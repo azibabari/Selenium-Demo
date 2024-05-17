@@ -21,7 +21,6 @@ jobs:
       run: curl -Ls "https://get.maestro.mobile.dev" | bash
 
     - name: Install Facebook IDB tool
-      if: runner.os == 'macOS'
       run: |
         brew tap facebook/fb
         brew install facebook/fb/idb-companion
