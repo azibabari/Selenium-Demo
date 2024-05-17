@@ -1,5 +1,5 @@
 const { By, Key, until} = require('selenium-webdriver');
-
+//Bootsrap Alerts Page
 class BootstrapAlertPage {
     constructor(driver) {
       this.driver = driver;
